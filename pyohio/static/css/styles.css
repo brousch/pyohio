@@ -2,7 +2,7 @@ body {
 	font-family: 'Exo 2', sans-serif;
 	font-size: 18pt;
 	font-weight: 400;
-	color: #ff4136;
+	color: #00274c;
 	line-height: 1.4em;
 }
 
@@ -14,7 +14,7 @@ h5,
 h6 {
 	font-family: 'Exo 2', sans-serif;
 	font-weight:900;
-	color: #ff4136;
+	color: #00274c;
 }
 
 h1 {
@@ -37,13 +37,13 @@ ul {
 .cms-page .container h2,
 form legend {
     font-size: 60px;
-    color: #ff4136;
+    color: #00274c;
     font-weight: 900;
     line-height: 1.1;
     margin-top: 20px;
     margin-bottom: 40px;
     padding-bottom: 40px;
-    border-bottom: 2px solid #ff4136;
+    border-bottom: 2px solid #00274c;
 }
 
 p.uppercase {
@@ -105,7 +105,7 @@ body.home .row h2 {
 	font-family: 'Exo 2', sans-serif;
 	font-size: 18pt;
 	font-weight: 400;
-	color: #ff4136;
+	color: #00274c;
 	line-height: 1.4em;
 }
 
@@ -117,12 +117,12 @@ body.home .row h2 {
 }
 
 .navbar-default {
-  	background-color: #fff;
-  	border-bottom: 1px solid #ff4136;
+  	background-color: #ffcb05;
+  	border-bottom: 1px solid #00274c;
 }
 
 .navbar-default .navbar-nav > li.active {
-    background-color: #FFEBE0;
+    background-color: #ffd844;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -131,68 +131,68 @@ body.home .row h2 {
 	font-family: 'Exo 2', sans-serif;
 	font-weight: 900;
 	font-size: 10pt;
-	color: #ff4136;
+	color: #00274c;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
 	font-family: 'Exo 2', sans-serif;
 	font-weight: 900;
 	font-size: 10pt;
-	color: #ff4136;
+	color: #00274c;
 	text-decoration: underline;
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #ff4136;
+    color: #00274c;
     background-color: initial;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color: #ff4136;
+    color: #00274c;
 }
 
 .navbar-default .navbar-toggle {
-  background-color: #fff;
-  border-color: #ff4136;
+  background-color: #ffcb05;
+  border-color: #00274c;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #ff4136;
+	background-color: #00274c;
 }
 
 .navbar-default .navbar-toggle:hover {
-	background-color: #ff4136;
-	border-color: #fff;
+	background-color: #00274c;
+	border-color: #ffcb05;
 }
 
 .navbar-default .navbar-toggle:hover .icon-bar {
-	background-color: #fff;
+	background-color: #ffcb05;
 }
 
 .nav > li > a:hover {
-	color: #ff4136;
+	color: #00274c;
 	text-decoration: underline;
 }
 
 .dropdown-menu {
-	color: #ff4136;
+	color: #00274c;
     border-radius: 4px;
 }
 
 .dropdown-menu > li > a {
 	text-decoration: none;
-	color: #ff4136;
+	color: #00274c;
 }
 
 .dropdown-menu > li > a:visited {
-	color: #ff4136;
+	color: #00274c;
 }
 
 .dropdown-menu > a:hover {
-	color: #ff4136;
+	color: #00274c;
 	text-decoration: underline;
 }
 
@@ -201,15 +201,15 @@ b {
 }
 
 .nav.navbar-right {
-    border-left: 1px solid #ff4136;
+    border-left: 1px solid #00274c;
 }
 
 .navbar-brand {
-    border-right: 1px solid #ff4136;
+    border-right: 1px solid #00274c;
 }
 
 .horizontalline {
-	border-top: 2px solid #ff4136;
+	border-top: 2px solid #00274c;
 }
 
 ul.list li{
@@ -218,11 +218,11 @@ ul.list li{
 }
 
 a {
-	color: #ff4136;
+	color: #00274c;
 }
 
 a:hover {
-	color: #ff4236;
+	color: #587abc;
 	text-decoration: underline;
 }
 
@@ -251,10 +251,10 @@ a:hover {
     width:320px;
     height:320px;
     border-radius:50%;
-    color:#fff;
+    color:#ffcb05;
     padding-top:40px;
     text-align:center;
-    background: #ff4136;
+    background: #00274c;
 }
 
 .circle .circle-headline {
@@ -265,7 +265,7 @@ a:hover {
 .circle .circle-headline a {
     font-size: 36pt;
     font-weight: 700;
-    color: #fff;
+    color: #ffcb05;
 }
 .circle .circle-headline img {
     margin-bottom: 8px;
@@ -285,11 +285,11 @@ a:hover {
 .sm-circle {
     width:200px;
     height:200px;
-    border: 4px solid #ff4136;
+    border: 4px solid #00274c;
     border-radius:50%;
-    color:#ff4136;
+    color:#00274c;
     text-align: center;
-    background: #fff;
+    background: #ffcb05;
     line-height: 1.2;
     vertical-align: middle;
     font-size: 24pt;
@@ -328,9 +328,9 @@ a:hover {
 }
 
 #footer {
-    background-color: #fff;
-    border-top: 1px solid #ff4136;
-    color: #ff4136;
+    background-color: #ffcb05;
+    border-top: 1px solid #00274c;
+    color: #00274c;
     font-size: 10pt;
     font-weight: 400;
     height: 100px;
@@ -341,9 +341,9 @@ a:hover {
 th {
 	font-weight: 900;
 	font-size: 32pt;
-	color: #fff;
+	color: #ffcb05;
 	width:100%;
-	background-color: #ff4136;
+	background-color: #00274c;
 }
 
 
@@ -357,12 +357,12 @@ th {
 .schedule .time {
 	font-size: 18pt;
 	font-weight: 300;
-	color: #fff;
+	color: #ffcb05;
 	text-decoration: underline;
 }
 
 .schedule .talk {
-	color: #fff;
+	color: #ffcb05;
 	line-height: 0.6em;
 	padding-top: 0.6em;
 }
@@ -370,25 +370,25 @@ th {
 .schedule .talk h2 {
 	margin-top: -0.2em;
 	font-size: 32pt;
-	color: #fff;
+	color: #ffcb05;
 }
 
 .schedule .talk h3 {
 	font-weight: 700;
-	color: #fff;
+	color: #ffcb05;
 }
 
 .schedule .talk h3 a {
-	color: #fff;
+	color: #ffcb05;
 }
 
 .schedule .endtime {
-	color: #fff;
+	color: #ffcb05;
 	font-size: 12pt;
 }
 
 .d0 {
-	background-color: #ff4136;
+	background-color: #00274c;
 }
 
 .d1 {
@@ -520,7 +520,7 @@ body.sponsorships .media p {
         font-family: 'Exo 2', sans-serif;
         font-weight: 900;
         font-size: 10pt;
-        color: #ff4136;
+        color: #00274c;
     }
 
     .navbar-default .navbar-nav > li > a:hover {
@@ -528,7 +528,7 @@ body.sponsorships .media p {
         font-family: 'Exo 2', sans-serif;
         font-weight: 900;
         font-size: 10pt;
-        color: #ff4136;
+        color: #00274c;
         text-decoration: underline;
     }
 
@@ -570,14 +570,14 @@ body.sponsorships .media p {
         padding-top:40px;
         margin: 0 auto 40px;
         text-align:center;
-        background: #ff4136
+        background: #00274c
     }
 
     .circle h2 {
         font-family: 'Exo 2', sans-serif;
         font-size: 32pt;
         font-weight:700;
-        color: #fff;
+        color: #ffcb05;
         margin-bottom: -0.2em;
 
     }
@@ -588,7 +588,7 @@ body.sponsorships .media p {
         font-weight:400;
         line-height: 1.4em;
         margin-top: -10px;
-        color: #fff;
+        color: #ffcb05;
     }
 }
 
@@ -655,7 +655,7 @@ body.sponsorships .media p {
     	font-family: 'Exo 2', sans-serif;
     	font-size: 14pt;
     	font-weight: 400;
-    	color: #ff4136;
+    	color: #00274c;
     	line-height: 1.2em;
     }
 
