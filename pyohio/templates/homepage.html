@@ -184,27 +184,37 @@
 
 <!-- sm circles-->
 <div class="row">
-  <div class="col-xs-6 col-sm-3">
-    <div class="sm-circle">
-      <a href="{% url "cms_page" "lightning/" %}">Lightning Talks <img src="{% static 'images/caret-red.svg' %}" alt="caret icon" /></a>
+  <div id="big-circles">
+    <div class="col-xs-6 col-sm-3">
+      <a href="{% url "cms_page" "lightning/" %}">
+        <div class="sm-circle">
+          Lightning Talks <img src="{% static 'images/caret-red.svg' %}" alt="caret icon" />
+        </div>
+      </a>
     </div>
-  </div>
 
-  <div class="col-xs-6 col-sm-3">
-    <div class="sm-circle">
-      <a href="{% url "cms_page" "sprints/" %}">Sprints <img src="{% static 'images/caret-red.svg' %}" alt="caret icon" /></a>
+    <div class="col-xs-6 col-sm-3">
+      <a href="{% url "cms_page" "sprints/" %}">
+        <div class="sm-circle">
+          Sprints <img src="{% static 'images/caret-red.svg' %}" alt="caret icon" />
+        </div>
+      </a>
     </div>
-  </div>
 
-  <div class="col-xs-6 col-sm-3">
-    <div class="sm-circle">
-      <a href="http://tripython.org/boot-camp/pyohio14/">PyCamp <img src="{% static 'images/caret-red.svg' %}" alt="caret icon" /></a>
+    <div class="col-xs-6 col-sm-3">
+      <a href="http://tripython.org/boot-camp/pyohio14/">
+        <div class="sm-circle">
+          PyCamp <img src="{% static 'images/caret-red.svg' %}" alt="caret icon" />
+        </div>
+      </a>
     </div>
-  </div>
 
-  <div class="col-xs-6 col-sm-3">
-    <div class="sm-circle">
-      <a href="{% url "cms_page" "young-coders/" %}">Young Coders <img src="{% static 'images/caret-red.svg' %}" alt="caret icon" /></a>
+    <div class="col-xs-6 col-sm-3">
+      <a href="{% url "cms_page" "young-coders/" %}">
+        <div class="sm-circle">
+          Young Coders <img src="{% static 'images/caret-red.svg' %}" alt="caret icon" />
+        </div>
+      </a>
     </div>
   </div>
 </div>

@@ -122,7 +122,7 @@ body.home .row h2 {
 }
 
 .navbar-default .navbar-nav > li.active {
-    background-color: #ffd844;
+    background-color: #FFD844;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -284,6 +284,9 @@ a:hover {
 /*Big circle on index*/
 
 /*Small circle on index*/
+#sm-circles a {
+    text_decoration: none;
+}
 .sm-circle {
     width:200px;
     height:200px;
@@ -298,16 +301,9 @@ a:hover {
     font-weight: 900;
     padding: 20% 10% 0;
 }
-
-.sm-circle a {
-    color:#00274c;
-    text-decoration: none;
+.sm-circle:hover {
+    background: #FFD844;
 }
-
-.sm-circle a:hover {
-    text-decoration: underline;
-}
-
 .sm-circle img {
     margin-bottom: 5px;
     height: 20px;
