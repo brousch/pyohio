@@ -73,45 +73,51 @@
 <div class="row">
   <div id="big-circles">
     <div class="col-xs-12 col-md-4">
-      <div class="circle">
-        <img src="{% static 'images/sponsor.svg' %}" alt="volunteer hand icon" width=80 height=70>
-        <div class="circle-headline">
-          <a href="{% url "sponsor_apply" %}">Sponsor! <img src="{% static 'images/caret.svg' %}" alt="caret icon" /></a>
+      <a href="{% url "sponsor_apply" %}">
+        <div class="circle">
+          <img src="{% static 'images/sponsor.svg' %}" alt="volunteer hand icon" width=80 height=70>
+          <div class="circle-headline">
+            Sponsor! <img src="{% static 'images/caret.svg' %}" alt="caret icon" />
+          </div>
+          <p>
+            Sponsoring PyOhio lets the attendees<br>
+            know that your organization shares their<br>
+            love of excellence in technology.
+          </p>
         </div>
-        <p>
-          Sponsoring PyOhio lets the attendees<br>
-          know that your organization shares their<br>
-          love of excellence in technology.
-        </p>
-      </div>
+      </a>
     </div>
 
     <div class="col-xs-12 col-md-4">
-      <div class="circle">
-        <img src="{% static 'images/speak.svg' %}" alt="volunteer hand icon" width=100 height=70>
-        <div class="circle-headline">
-          <a href="{% url "cms_page" "call-for-proposals/" %}">Speak <img src="{% static 'images/caret.svg' %}" alt="caret icon" /></a>
+      <a href="{% url "cms_page" "call-for-proposals/" %}">
+        <div class="circle">
+          <img src="{% static 'images/speak.svg' %}" alt="volunteer hand icon" width=100 height=70>
+          <div class="circle-headline">
+            Speak <img src="{% static 'images/caret.svg' %}" alt="caret icon" />
+          </div>
+          <p>
+            Have an idea for a talk or tuturial?<br>
+            Sign up and login to submit your<br>
+            proposal now!
+          </p>
         </div>
-        <p>
-          Have an idea for a talk or tuturial?<br>
-          Sign up and login to submit your<br>
-          proposal now!
-        </p>
-      </div>
+      </a>
     </div>
 
     <div class="col-xs-12 col-md-4">
-      <div class="circle">
-        <img src="{% static 'images/volunteer.svg' %}" alt="volunteer hand icon" width=100 height=70>
-        <div class="circle-headline">
-          <a href="{% url "cms_page" "volunteer/" %}">Volunteer <img src="{% static 'images/caret.svg' %}" alt="caret icon" /></a>
+      <a href="{% url "cms_page" "volunteer/" %}">
+        <div class="circle">
+          <img src="{% static 'images/volunteer.svg' %}" alt="volunteer hand icon" width=100 height=70>
+          <div class="circle-headline">
+            Volunteer <img src="{% static 'images/caret.svg' %}" alt="caret icon" />
+          </div>
+          <p>
+            Help make {{ SITE_NAME }} a smashing success.<br>
+            Sign up to volunteer and you<br>
+            may even get a free t-shirt!
+          </p>
         </div>
-        <p>
-        Help make {{ SITE_NAME }} a smashing success.<br>
-        Sign up to volunteer and you<br>
-        may even get a free t-shirt!
-        </p>
-      </div>
+      </a>
     </div>
   </div>
 </div>

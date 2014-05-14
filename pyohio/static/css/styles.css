@@ -247,7 +247,9 @@ a:hover {
 #big-circles {
 	padding-bottom: 320px;
 }
-
+#big-circles a {
+    text-decoration: none;
+}
 .circle {
     width:320px;
     height:320px;
@@ -257,20 +259,15 @@ a:hover {
     text-align:center;
     background: #00274c;
 }
-
+.circle:hover {
+    background: #154879;
+}
 .circle .circle-headline {
+    font-size: 36pt;
+    font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
     line-height: 1.1;
-}
-.circle .circle-headline a {
-    font-size: 36pt;
-    font-weight: 700;
-    color: #ffcb05;
-    text-decoration: none;
-}
-.circle .circle-headline a:hover {
-    text-decoration: underline;
 }
 .circle .circle-headline img {
     margin-bottom: 8px;
