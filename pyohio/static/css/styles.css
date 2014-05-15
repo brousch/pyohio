@@ -2,8 +2,9 @@ body {
 	font-family: 'Exo 2', sans-serif;
 	font-size: 18pt;
 	font-weight: 400;
-	color: #00274c;
+	color: #0e0b0a;
 	line-height: 1.4em;
+	background: #edebeb;
 }
 
 h1,
@@ -14,7 +15,7 @@ h5,
 h6 {
 	font-family: 'Exo 2', sans-serif;
 	font-weight:900;
-	color: #00274c;
+	color: #0e0b0a;
 }
 
 h1 {
@@ -28,6 +29,9 @@ h2 {
 h3 {
 	font-size: 24pt;
 }
+h3:hover {
+    color: #15110f;
+}
 
 ul {
     padding-left: 40px;
@@ -37,13 +41,13 @@ ul {
 .cms-page .container h2,
 form legend {
     font-size: 60px;
-    color: #00274c;
+    color: #0e0b0a;
     font-weight: 900;
     line-height: 1.1;
     margin-top: 20px;
     margin-bottom: 40px;
     padding-bottom: 40px;
-    border-bottom: 2px solid #00274c;
+    border-bottom: 2px solid #0e0b0a;
 }
 
 p.uppercase {
@@ -105,7 +109,7 @@ body.home .row h2 {
 	font-family: 'Exo 2', sans-serif;
 	font-size: 18pt;
 	font-weight: 400;
-	color: #00274c;
+	color: #0e0b0a;
 	line-height: 1.4em;
 }
 
@@ -117,83 +121,83 @@ body.home .row h2 {
 }
 
 .navbar-default {
-  	background-color: #ffcb05;
-  	border-bottom: 1px solid #00274c;
+  	background-color: #bb0000;
+  	border-bottom: 1px solid #0e0b0a;
 }
 
 .navbar-default .navbar-nav > li.active {
-    background-color: #FFD844;
+    background-color: #ffcb05;
 }
 
 .navbar-default .navbar-nav > li > a {
   	padding-left: 20px;
 	padding-right: 20px;
 	font-family: 'Exo 2', sans-serif;
-	font-weight: 900;
-	font-size: 10pt;
-	color: #00274c;
+	font-weight: 600;
+	font-size: 12pt;
+	color: #0e0b0a;
 	text-decoration: none;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
 	font-family: 'Exo 2', sans-serif;
-	font-weight: 900;
-	font-size: 10pt;
-	color: #00274c;
+	font-weight: 600;
+	font-size: 12pt;
+	color: #15110f;
 	text-decoration: underline;
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #00274c;
+    color: #15110f;
     background-color: initial;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color: #00274c;
+    color: #15110f;
 }
 
 .navbar-default .navbar-toggle {
-  background-color: #ffcb05;
-  border-color: #00274c;
+  background-color: #bb0000;
+  border-color: #0e0b0a;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #00274c;
+	background-color: #0e0b0a;
 }
 
 .navbar-default .navbar-toggle:hover {
-	background-color: #00274c;
-	border-color: #ffcb05;
+	background-color: #15110f;
+	border-color: #bb0000;
 }
 
 .navbar-default .navbar-toggle:hover .icon-bar {
-	background-color: #ffcb05;
+	background-color: #bb0000;
 }
 
 .nav > li > a:hover {
-	color: #00274c;
+	color: #15110f;
 	text-decoration: underline;
 }
 
 .dropdown-menu {
-	color: #00274c;
+	color: #0e0b0a;
     border-radius: 4px;
 }
 
 .dropdown-menu > li > a {
 	text-decoration: none;
-	color: #00274c;
+	color: #0e0b0a;
 }
 
 .dropdown-menu > li > a:visited {
-	color: #00274c;
+	color: #0e0b0a;
 }
 
 .dropdown-menu > a:hover {
-	color: #00274c;
+	color: ##15110f;
 	text-decoration: underline;
 }
 
@@ -202,15 +206,15 @@ b {
 }
 
 .nav.navbar-right {
-    border-left: 1px solid #00274c;
+    border-left: 1px solid #0e0b0a;
 }
 
 .navbar-brand {
-    border-right: 1px solid #00274c;
+    border-right: 1px solid #0e0b0a;
 }
 
 .horizontalline {
-	border-top: 2px solid #00274c;
+	border-top: 2px solid #0e0b0a;
 }
 
 ul.list li{
@@ -219,12 +223,12 @@ ul.list li{
 }
 
 a {
-	color: #00274c;
+	color: #0e0b0a;
 	text-decoration: underline;
 }
 
 a:hover {
-	color: #575294;
+	color: ##15110f;
 }
 
 .text_line {
@@ -254,13 +258,13 @@ a:hover {
     width:320px;
     height:320px;
     border-radius:50%;
-    color:#ffcb05;
+    color:#bb0000;
     padding-top:40px;
     text-align:center;
-    background: #00274c;
+    background: #0e0b0a;
 }
 .circle:hover {
-    background: #154879;
+    background: #15110f;
 }
 .circle .circle-headline {
     font-size: 36pt;
@@ -290,11 +294,11 @@ a:hover {
 .sm-circle {
     width:200px;
     height:200px;
-    border: 4px solid #00274c;
+    border: 4px solid #0e0b0a;
     border-radius:50%;
-    color:#00274c;
+    color:#0e0b0a;
     text-align: center;
-    background: #ffcb05;
+    background: #bb0000;
     line-height: 1.2;
     vertical-align: middle;
     font-size: 24pt;
@@ -302,7 +306,7 @@ a:hover {
     padding: 20% 10% 0;
 }
 .sm-circle:hover {
-    background: #FFD844;
+    background: #fd0f0f;
 }
 .sm-circle img {
     margin-bottom: 5px;
@@ -328,7 +332,9 @@ a:hover {
 	vertical-align: middle;
     margin-top: 31px;
 }
-
+.diamond-bg a:hover {
+    color: #15110f;
+}
 .diamond-bg p{
 	text-align: center;
 	font-size: 12pt;
@@ -336,9 +342,9 @@ a:hover {
 }
 
 #footer {
-    background-color: #ffcb05;
-    border-top: 1px solid #00274c;
-    color: #00274c;
+    background-color: #bb0000;
+    border-top: 1px solid #0e0b0a;
+    color: #0e0b0a;
     font-size: 10pt;
     font-weight: 400;
     height: 100px;
@@ -349,9 +355,9 @@ a:hover {
 th {
 	font-weight: 900;
 	font-size: 32pt;
-	color: #ffcb05;
+	color: #bb0000;
 	width:100%;
-	background-color: #00274c;
+	background-color: #0e0b0a;
 }
 
 
@@ -365,12 +371,12 @@ th {
 .schedule .time {
 	font-size: 18pt;
 	font-weight: 300;
-	color: #ffcb05;
+	color: #bb0000;
 	text-decoration: underline;
 }
 
 .schedule .talk {
-	color: #ffcb05;
+	color: #bb0000;
 	line-height: 0.6em;
 	padding-top: 0.6em;
 }
@@ -378,25 +384,25 @@ th {
 .schedule .talk h2 {
 	margin-top: -0.2em;
 	font-size: 32pt;
-	color: #ffcb05;
+	color: #bb0000;
 }
 
 .schedule .talk h3 {
 	font-weight: 700;
-	color: #ffcb05;
+	color: #bb0000;
 }
 
 .schedule .talk h3 a {
-	color: #ffcb05;
+	color: #bb0000;
 }
 
 .schedule .endtime {
-	color: #ffcb05;
+	color: #bb0000;
 	font-size: 12pt;
 }
 
 .d0 {
-	background-color: #00274c;
+	background-color: #0e0b0a;
 }
 
 .d1 {
@@ -528,7 +534,7 @@ body.sponsorships .media p {
         font-family: 'Exo 2', sans-serif;
         font-weight: 900;
         font-size: 10pt;
-        color: #00274c;
+        color: #0e0b0a;
     }
 
     .navbar-default .navbar-nav > li > a:hover {
@@ -536,7 +542,7 @@ body.sponsorships .media p {
         font-family: 'Exo 2', sans-serif;
         font-weight: 900;
         font-size: 10pt;
-        color: #00274c;
+        color: #15110f;
         text-decoration: underline;
     }
 
@@ -578,14 +584,14 @@ body.sponsorships .media p {
         padding-top:40px;
         margin: 0 auto 40px;
         text-align:center;
-        background: #00274c
+        background: #0e0b0a
     }
 
     .circle h2 {
         font-family: 'Exo 2', sans-serif;
         font-size: 32pt;
         font-weight:700;
-        color: #ffcb05;
+        color: #bb0000;
         margin-bottom: -0.2em;
 
     }
@@ -596,7 +602,7 @@ body.sponsorships .media p {
         font-weight:400;
         line-height: 1.4em;
         margin-top: -10px;
-        color: #ffcb05;
+        color: #bb0000;
     }
 }
 
@@ -663,7 +669,7 @@ body.sponsorships .media p {
     	font-family: 'Exo 2', sans-serif;
     	font-size: 14pt;
     	font-weight: 400;
-    	color: #00274c;
+    	color: #0e0b0a;
     	line-height: 1.2em;
     }
 
