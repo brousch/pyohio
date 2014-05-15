@@ -36,13 +36,13 @@
             {% else %}
                 <h3>Your Proposals</h3>
                 {% if user.speaker_profile.proposals.exists %}
-                    <table class="table">
-                        <tr>
+                    <table class="table table-responsive table-bordered table-hover">
+                        <thead>
                             <th>Title</th>
                             <th>Session type</th>
                             <th>Status</th>
                             <th>Actions</th>
-                        </tr>
+                        </thead>
                         {% for proposal in user.speaker_profile.proposals.all %}
                             {% include "proposals/_proposal_row.html" %}
                         {% endfor %}
